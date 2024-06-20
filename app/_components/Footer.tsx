@@ -2,7 +2,7 @@
 
 const Footer = () => {
   return (
-    <section className="bg-zinc-950 h-fit py-12 px-6">
+    <section id="footer" className="bg-zinc-950 h-fit py-12 px-6">
         <div className="max-w-[1300px] mx-auto flex flex-col items-center  gap-11">
 
             <div className="flex flex-col gap-1 items-center max-sm:text-center">
