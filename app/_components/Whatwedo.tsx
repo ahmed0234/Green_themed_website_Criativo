@@ -1,4 +1,13 @@
 import Card from "./small_components/Card"
+import Svg1 from "./small_components/svgs/Svg1";
+import Svg2 from "./small_components/svgs/Svg2";
+import Svg3 from "./small_components/svgs/Svg3";
+import Svg4 from "./small_components/svgs/Svg4";
+
+
+
+
+
 
 const Whatwedo = () => {
   return (
@@ -36,10 +45,10 @@ const Whatwedo = () => {
       </div>
 
       <div className="right grid grid-cols-2 gap-6 w-[60%] max-xl:grid-cols-3 max-xl:w-[100%] max-lg:grid-cols-2 max-[600px]:grid-cols-1">
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+        <Card cardValue={`Brand Identity`} Logo={Svg1}/>
+        <Card cardValue={`Landing Pages`} Logo={Svg2}/>
+        <Card cardValue={`Animations`} Logo={Svg3}/>
+        <Card cardValue={`Cool Web Design`} Logo={Svg4}/>
       </div>
 
       
@@ -49,3 +58,5 @@ const Whatwedo = () => {
 }
 
 export default Whatwedo
+
+
